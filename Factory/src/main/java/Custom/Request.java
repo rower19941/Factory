@@ -1,4 +1,4 @@
-package Custom;
+package custom;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

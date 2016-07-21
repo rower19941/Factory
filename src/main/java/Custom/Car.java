@@ -45,11 +45,12 @@ public class Car {
     public void setCarColor(String carColor) {
         this.carColor = carColor;
     }
-    public Car()
+
+    protected Car()
     {
 
     }
-    public Car(String carColor, String carRegistrationNumber, String carModel) {
+    protected Car(String carColor, String carRegistrationNumber, String carModel) {
         this.carColor = carColor;
         this.carRegistrationNumber = carRegistrationNumber;
         this.carModel = carModel;
